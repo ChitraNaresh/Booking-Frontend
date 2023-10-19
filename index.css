@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
+*{
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+/*authentication-pages*/
+
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right,#edc953,#f2d880,#f2d880);
+}
+.authentication-form{
+  background-color: aliceblue;
+}
+/* common styling */
+.password-input{
+  border: none;
+  width: 90%;
+  border: none !important;
+}
+.booking-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width:714px) {
+  .booking-image1{
+       display: block;
+  }
+  .booking-image{
+    display: none;
+}
+}
+@media screen and (max-width:714px) {
+  .booking-image1{
+       display: block;
+  }
+  .booking-image1{
+    display: none;
+}}
+.booking-image1{
+  width: 250px;
+  height: 200px;
+}
+.profile-img{
+  height: 70px;
+  width: 70px;
+
+}
+@media screen and (max-width:568px) {
+  .profile-img{
+    height: 50px;
+    width: 50px;
+  }
+}
+.profile-role{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.profile-page-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-data{
+  height: 170px;
+  width: 170px;
+  background-color: greenyellow;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.password-image1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-name{
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-mail{
+  font-size: 12px;
+  font-weight: 600;
+}.profile-image1{
+  height: 170px;
+  width: 170px;
+  background-color: greenyellow;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.eye-icon{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.password-card{
+  background-color: #fff;
+  border:1px solid gainsboro;
+  display: flex;
+  align-items: center;
+}
+.password-card:focus-within{
+  border: 2px solid lightblue;
+}
+.appointment-person-name{
+  border: 1px solid #000;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  max-width: max-content;
+  background-color:blueviolet;
+  color: #fff;
+  border: none;
+  margin-right: 20px;
+}
+.data-value{
+  margin-bottom: 5px;
+}
+.mark-all{
+  cursor: pointer;
+}
+.error{
+  font-size: 12px;
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.doctors-home-icon-card{
+  display: flex;
+  margin-bottom: 20px;
+}
+.no-data{
+  width: 200px;
+  border-radius: 10px;
+  height: 200px;
+}
+@media screen and (min-width:568px) {
+  .no-data{
+    height: 270px;
+    width:270px;
+  }
+}
+@media screen and (max-width:320px) {
+  .no-data{
+    height: 180px;
+    width:170px;
+  }
+}
+.empty-text{
+  font-size: 12px;
+  margin-top: 2px;
+  text-align: center;
+}
+.empty-card{
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  text-align: center;
+  width: 100%;
+}
+.doctor-icon-home{
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.booking-image{
+  height: 170px;
+  width: 240px;
+}
+.each-message{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+/* .each-message:hover{
+  background-color: cornflowerblue;
+  color: #fff;
+} */
+/* .message{
+  margin: 0px;
+} */
+.doctor-name{
+  margin-bottom: 0px;
+}
+.each-card{
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.each-card:hover{
+  background-color: antiquewhite;
+}
+.spinner-parent{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  z-index: 9999;
+  background-color: white;
+  opacity: 0.3;
+}
+.spinner-border{
+  width: 3rem;
+  height: 3rem;
+  color: blueviolet;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.normal-text {
+  font-size: 1rem;
+}
+
+.card {
+  box-shadow: 0 0 2px gray;
+}
+.authentication-form {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 10px;
+}
+.anchor {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 20px !important;
+  text-decoration: none;
+  text-align: center;
+}
+.anchor:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.authentication .card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: blueviolet !important;
+  text-align: center;
+  color: #fff !important;
+  width: 100%;
+  padding: 7px 15px;
+}
+
+/* antity override */
+input {
+  border-radius: 0px !important;
+  border: 1px solid rgba(128, 128, 128, 0.634);
+  height: 40px;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid grey;
+}
+label {
+  font-size: 16px !important;
+  color: #000;
+}
+.ant-form-item {
+  margin: 10px !important;
+}
+.primary-button {
+  background-color: blueviolet !important;
+  border: none !important;
+  color: #fff !important;
+  height: 40px;
+  width: 100%;
+  font-weight: 600;
+  margin-top: 15px;
+}
